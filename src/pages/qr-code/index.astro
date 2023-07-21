@@ -1,0 +1,44 @@
+---
+import qrcode from "./images/image-qr-code.png";
+import favicon from "./images/favicon-32x32.png";
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href={favicon} />
+    <title>Frontend Mentor | QR code component</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+  <body class="flex h-screen justify-center items-center bg-[#D5E1EF] flex-col">
+    <main>
+      <div class="text-center border bg-white rounded-2xl p-3 w-64 shadow-md">
+        <div>
+          <img src={qrcode} alt="qr code" class="rounded-xl" />
+        </div>
+        <div class="text-lg text-[#1f2838] font-bold my-4 mx-1">
+          Improve your front-end skills by building projects
+        </div>
+        <div class="text-[#777e8c] text-xs my-4 mx-4">
+          Scan the QR code to visit Frontend Mentor and take your coding skills
+          to the next level
+        </div>
+      </div>
+    </main>
+    <footer class="attribution fixed bottom-0 text-xs">
+      Challenge by
+      <a
+        class="text-[#3d4770]"
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank">Frontend Mentor</a
+      >. Coded by <a
+        class="text-[#3d4770]"
+        href="https://github.com/JosueEstrada"
+        target="_blank">Josué Estrada</a
+      >.
+    </footer>
+  </body>
+</html>
